@@ -1,0 +1,19 @@
+#gallery {
+  display: flex;
+  list-style: none;
+}
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: rgb(76, 175, 80);
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+.task {
+  outline: 1px solid navy;
+  margin-bottom: 20px;
+}
